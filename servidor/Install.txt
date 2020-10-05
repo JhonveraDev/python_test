@@ -1,0 +1,5 @@
+version de python mayor a 2.7.9 o 3.4 ya tienen instalado pip, lo que tendrian que hacer es actualizarlo con este comando, ‘python -m pip install --upgrade pip’ , luego instalar el virtualenv con este comando ‘python -m pip install virtualenv’.
+
+Para activar el virtualenv es ‘venv\Scripts\activate’ , instalamos flask con ‘python -m pip install flask’ y los requerimientos con ‘pip freeze > requirements.txt’ el archivo de texto se crea automaticamente.
+
+pip install -r requirements.txt
